@@ -9,8 +9,17 @@
     <body>
         <div class="container">
             <fieldset class="card">
-                <h4>very well made linktree clone</h4>
-                <ul>
+                <h4 class="title">very well made linktree clone</h4>
+
+                <script>
+                    window.addEventListener('DOMContentLoaded', () => {
+                    setTimeout(() => {
+                        document.body.classList.add('reveal');
+                    }, 50); // slight delay in milliseconds
+                    });
+                </script>
+
+                <ul class="links">
                     <li><a href="https://www.albumoftheyear.org/user/dotlua/" target="_blank"> aoty</a></li>
                     <li><a href="https://bsky.app/profile/irisgarage.bsky.social" target="_blank""> bluesky</a></li>
                     <li><a href="https://dotlua.bandcamp.com/" target="_blank"> bandcamp</a></li>

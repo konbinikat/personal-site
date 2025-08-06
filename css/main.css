@@ -54,6 +54,33 @@ h4 {
     font-size: var(--standard-font-size);
 }
 
+.title {
+    clip-path: inset(0 100% 0 0);
+    transition: clip-path 1s ease-out;
+}
+
+.reveal .title {
+    clip-path: inset(0 0 0 0);
+}
+
+.links {
+    clip-path: inset(0 0 0 100%);
+    transition: clip-path 1s ease-out;
+}
+
+.reveal .links {
+    clip-path: inset(0 0 0 0);
+}
+
+.card {
+    clip-path: inset(100% 100% 100% 100%);
+    transition: clip-path 1s ease-out;
+}
+
+.reveal .card {
+    clip-path: inset(0 0 0 0);
+}
+
 img {
     width: 12rem;
 }
